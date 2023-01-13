@@ -1,0 +1,18 @@
+----------------------------------------
+Nombre de data = 20000
+
+Java default sort
+Temps de calcul en millisecondes: 5
+Bubble sort
+Temps de calcul en millisecondes: 1
+
+Process finished with exit code 0
+----------------------------------------
+Nombre de data = 40000
+
+Java default sort
+Temps de calcul en millisecondes: 11
+Bubble sort
+Temps de calcul en millisecondes: 2
+
+Process finished with exit code 0
