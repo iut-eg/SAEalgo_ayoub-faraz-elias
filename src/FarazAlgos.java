@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class SAe2 {
+public class FarazAlgos {
 
         public static void main(String[] args) {
 //        int[] données = générerDonnéesEntreBornes(50, 0, 20);
