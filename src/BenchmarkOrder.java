@@ -3,7 +3,8 @@ import java.util.Random;
 public class BenchmarkOrder {
 
         public static void main(String[] args) {
-            int arrayChoice = 1;
+
+                                    int arrayChoice = 1;
             int n=0;
             int[] array;
             //switch (arrayChoice) {
@@ -14,7 +15,12 @@ public class BenchmarkOrder {
                 n = array.length;
             }
             else if (arrayChoice == 2) {
-                n = 100000;
+                n = 200000;
+                int[] array2 = rety.générerDonnées(n);
+                array = array2;
+            }
+            else if (arrayChoice == 3) {
+                n = 10000000;
                 int[] array2 = rety.générerDonnées(n);
                 array = array2;
             }
