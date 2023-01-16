@@ -1,4 +1,4 @@
-public class TrieBubble {
+public class EliasAlgos {
     public static void main(String[] args) {
 
         int arr[] = {5,1,4,2,8};

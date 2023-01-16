@@ -1,27 +1,54 @@
 ----------------------------------------
-Nombre de data = 20000
+Nombre de data = 100000
 
 Java default sort
-Temps de calcul en millisecondes: 5
-Bubble sort
-Temps de calcul en millisecondes: 1
-
-Process finished with exit code 0
+Temps de calcul en millisecondes: 56
 ----------------------------------------
-Nombre de data = 40000
+Nombre de data = 100000
 
-Java default sort
-Temps de calcul en millisecondes: 11
 Bubble sort
-Temps de calcul en millisecondes: 2
-
-Process finished with exit code 0
+Temps de calcul en millisecondes: 24400
 ----------------------------------------
-Nombre de data = 200000
+Nombre de data = 100000
 
-Java default sort
-Temps de calcul en millisecondes: 27
-Bubble sort
-Temps de calcul en millisecondes: 4
+Faraz Cocktail sort
+Temps de calcul en millisecondes: 10427
+----------------------------------------
+Nombre de data = 100000
 
-Process finished with exit code 0
+Faraz Cocktail sort
+Temps de calcul en millisecondes: 10107
+----------------------------------------
+Nombre de data = 100000
+
+aYOUB COCKTAIL
+Temps de calcul en millisecondes: 10533
+----------------------------------------
+Nombre de data = 100000
+
+ayoub peigne
+Temps de calcul en millisecondes: 16
+----------------------------------------
+Nombre de data = 100000
+
+ayoub comptage
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at AyoubAlgos.triComptage(AyoubAlgos.java:82)
+	at BenchmarkOrder.main(BenchmarkOrder.java:85)
+
+Process finished with exit code 1
+----------------------------------------
+Nombre de data = 100000 (positif)
+
+aYOUB COCKTAIL
+Temps de calcul en millisecondes: 10736
+----------------------------------------
+Nombre de data = 100000 (pos)
+
+ayoub peigne
+Temps de calcul en millisecondes: 15
+----------------------------------------
+Nombre de data = 100000 (pos)
+
+ayoub comptage
+Temps de calcul en millisecondes: 56
