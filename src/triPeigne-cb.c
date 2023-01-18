@@ -1,13 +1,39 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-int* randomArray(int n) {
+#include <time.h>
+void randomArray(int *array, int n);
 
-        int t[n];
-        for (int i = 0 ; i < (arrsizeof(t) / sizeof(t[0])) ; i++)
-            t[i] = rand(); // tirage aléatoire
-        return t;
+int main(){
+    int n = 100000;
+
+
+   int array[n];
+   printf("The array has %zu elements\n", sizeof array / sizeof *array);
+
+   randomArray(array, n);
+    /*
+    time_t seconds;
+    time_t temps;
+
+    temps = time(NULL);
+    array = triPeigne(array);
+    seconds = time(NULL) - temps;
+    printf("tri peigne: %ld seconds\n", seconds);
+    */
+    return 0;
 }
+
+
+void randomArray(int *array, int n) {
+
+
+        for (int i = 0 ; i < n ; i++){
+            array[i] = rand(); // tirage aléatoire
+            printf("array[%d] = %d \n", i, array[i]);
+        }
+
+}/*
 int* triPeigne(int arr[]) {
 
         int arrlength = arrsizeof(arr) / sizeof(arr[0]);
@@ -36,19 +62,6 @@ int* triPeigne(int arr[]) {
         return arr;
 }
 
-int main(){
-    int n = 100000;
-    int* array = randomArray(n);
-    time_t seconds;
-    time_t temps;
-
-    temps = time(NULL);
-    array = triPeigne(array);
-    seconds = time(NULL) - temps;
-    printf("tri peigne: %d seconds\n", seconds);
-
-    return 0;
-}
-
+*/
 
 

@@ -2,9 +2,9 @@
 
 main(){
 
-    int[] array = randomArray(100000);
-    time_t seconds;
-    time_t temps;
+    int array[] = randomArray(100000);
+    __time_t seconds;
+    __time_t temps;
 
     temps = time(NULL);
     array = triPeigne(array);
