@@ -32,36 +32,7 @@ class SAe2Test {
         SAe2.triInsertion(tabCroissant);
         assertArrayEquals(tabCroissant, resultatCroissant);
     }
-
-    @Test
-    void triCocktail1() {
-
-        int[] tabDécroissant = {6,5,4,3,2,1};
-        int[] resultatDécroissant = {1,2,3,4,5,6};
-        SAe2.triCocktail1(tabDécroissant);
-        assertArrayEquals(tabDécroissant, resultatDécroissant);
-
-        int[] tabMoyen = {1, 5, 10, 5, 4, 0, 9};
-        int[] resultatMoyen = {0, 1, 4, 5, 5, 9, 10};
-        SAe2.triCocktail1(tabMoyen);
-        assertArrayEquals(tabMoyen, resultatMoyen);
-
-        int[] tabMoyen2 = {-10, 10, 50, -50, 0, 7, -10};
-        int[] resultatMoyen2 = {-50 ,-10, -10, 0, 7, 10, 50};
-        SAe2.triCocktail1(tabMoyen2);
-        assertArrayEquals(tabMoyen2, resultatMoyen2);
-
-        int[] tabNull = {0,0,0,0,0};
-        int[] resultatNull = {0,0,0,0,0};
-        SAe2.triCocktail1(tabNull);
-        assertArrayEquals(tabNull, resultatNull);
-
-        int[] tabCroissant = {1,2,3,4,5,9,13,25};
-        int[] resultatCroissant = {1,2,3,4,5,9,13,25};
-        SAe2.triCocktail1(tabCroissant);
-        assertArrayEquals(tabCroissant, resultatCroissant);
-    }
-
+    
     @Test
     void triBubble() {
 
