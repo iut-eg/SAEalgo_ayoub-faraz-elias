@@ -1,8 +1,0 @@
-Question préliminaire (fondamental)
-200 000? 26ms
-10 000 000? 946ms
-
-Question 1 (fondamental)
-200 000?
-    Array.Sort: 27ms
-    Bubble: 4ms
