@@ -1,3 +1,6 @@
+import java.util.Random;
+import java.util.Arrays;
+
 public class AlgosGroupe {
 
     public static void triInsertion (int[] tab) {

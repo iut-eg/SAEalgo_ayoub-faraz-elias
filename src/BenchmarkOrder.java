@@ -1,5 +1,5 @@
 import java.util.Arrays;
-import java.util.Random;
+
 public class BenchmarkOrder {
 
         public static void main(String[] args) {
@@ -21,29 +21,29 @@ public class BenchmarkOrder {
 
                 case 1: //100 k
                     n = 100000;
-                    int[] array1 = FarazAlgos.générerDonnées(n);
+                    int[] array1 = AlgosGroupe.générerDonnées(n);
                     array = array1;
                     break;
 
                 case 2: //200 k
                     n = 200000;
-                    int[] array2 = FarazAlgos.générerDonnées(n);
+                    int[] array2 = AlgosGroupe.générerDonnées(n);
                     array = array2;
                 break;
                 case 3: //10 M's
                     n = 10000000;
-                    int[] array3 = FarazAlgos.générerDonnées(n);
+                    int[] array3 = AlgosGroupe.générerDonnées(n);
                     array = array3;
                 break;
                 case 4: //100 M's
                     n = 100000000;
-                    int[] array4 = FarazAlgos.générerDonnées(n);
+                    int[] array4 = AlgosGroupe.générerDonnées(n);
                     array = array4;
                 break;
 
                 case 5: //100 M's positif
                     n = 100000;
-                    int[] array5 = rety.générerDonnéesEntreBornes(n, 0, 100000);
+                    int[] array5 = AlgosGroupe.générerDonnéesEntreBornes(n, 0, 100000);
                     array = array5;
                 break;
 
@@ -75,22 +75,22 @@ public class BenchmarkOrder {
 
                             break;
                         case 3:
-                            System.out.println("Faraz Cocktail sort");
-                            FarazAlgos.triCocktail(array);
+                            System.out.println("Faraz Cocktail1 sort");
+                            AlgosGroupe.triCocktail1(array);
                            
                             break;
 
                         case 4:
-                            System.out.println("Ayoub Cocktail");
-                            AyoubAlgos.triCocktail(array);
+                            System.out.println("Tri Cocktail2");
+                            AlgosGroupe.triCocktail2(array);
                             break;
                         case 5:
-                            System.out.println("ayoub peigne");
-                            AyoubAlgos.triPeigne(array);
+                            System.out.println("Tri peigne");
+                            AlgosGroupe.triPeigne(array);
                             break;
                         case 6:
-                            System.out.println("ayoub comptage");
-                            AyoubAlgos.triComptage(array);
+                            System.out.println("Tri comptage");
+                            AlgosGroupe.triComptage(array);
                             break;
                     
 
